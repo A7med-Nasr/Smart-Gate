@@ -276,15 +276,15 @@ button.new-member:hover {
 
 @keyframes move {
     0% {
-        transform: translateY(0);
+        transform: translateY(0px);
     }
 
     50% {
-        transform: translateY(-15px);
+        transform: translateY(15px);
     }
 
     100% {
-        transform: translateY(15px);
+        transform: translateY(0px);
     }
 }
 
@@ -998,7 +998,7 @@ footer .subscribe .input-container button {
     .login-div .login-content {
         text-align: center;
         width: 100%;
-        padding: 1  0px 20px;
+        padding: 1 0px 20px;
         margin-top: -50px;
     }
 
