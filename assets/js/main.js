@@ -35,6 +35,7 @@ function showLog() {
 
 loginBtn.addEventListener("click",showLog);
 loginResponsiveBtn.addEventListener("click",showLog);
+loginResponsiveBtn.addEventListener("click",showMenu);
 
 let closeBtn = document.querySelector(".btn-close");
 
