@@ -1230,12 +1230,18 @@ footer .subscribe .input-container button {
     }
 
     .our-customers .customers-cards {
-        width: 90%;
+        width: 80%;
     }
 
     .our-customers .customers-cards .card {
         width: 100%;
+        margin: auto;
         margin: 10px 0;
+        height: 250px;
+    }
+
+    .our-customers .customers-cards .card img {
+        width: 100%;
     }
 
     .contact-us .contact-part {
