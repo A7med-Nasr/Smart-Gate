@@ -972,6 +972,14 @@ footer .subscribe .input-container button {
 }
 
 @media(max-width:950px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    main {
+        overflow-x: hidden;
+    }
+
     h2 {
         margin-right: 0px;
     }
@@ -1160,6 +1168,14 @@ footer .subscribe .input-container button {
 }
 
 @media(max-width:600px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    main {
+        overflow-x: hidden;
+    }
+
     h2 {
         margin-right: 20px;
     }
