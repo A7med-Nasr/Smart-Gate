@@ -203,6 +203,7 @@ button.new-member:hover {
     position: absolute;
     top: 200px;
     display: flex;
+    flex-wrap: wrap;
     left: 15%;
     background-color: white;
     z-index: 233;
@@ -213,6 +214,10 @@ button.new-member:hover {
     transition: all 0.5s;
     height: 0px;
     overflow: hidden;
+}
+
+.login-div .btn-close {
+    margin: 20px;
 }
 
 .login-div .log-img {
@@ -978,6 +983,23 @@ footer .subscribe .input-container button {
 
     main {
         overflow-x: hidden;
+    }
+
+    .login-div {
+        top: 100px;
+        display: flex;
+        left: 0%;
+    }
+
+    .login-div .log-img {
+        display: none;
+    }
+
+    .login-div .login-content {
+        text-align: center;
+        width: 100%;
+        padding: 1  0px 20px;
+        margin-top: -50px;
     }
 
     h2 {

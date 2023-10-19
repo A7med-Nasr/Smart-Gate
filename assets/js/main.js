@@ -23,6 +23,7 @@ navBtn.addEventListener("click", showMenu);
 
 let loginBtn = document.querySelector(".login");
 let loginDiv = document.querySelector(".login-div");
+let loginResponsiveBtn = document.querySelector("#respo-btn");
 
 function showLog() {
     if (loginDiv.style.height == 0) {
@@ -33,3 +34,12 @@ function showLog() {
 }
 
 loginBtn.addEventListener("click",showLog);
+loginResponsiveBtn.addEventListener("click",showLog);
+
+let closeBtn = document.querySelector(".btn-close");
+
+function closeDiv(){
+    loginDiv.style.height = null;
+}
+
+closeBtn.addEventListener("click",closeDiv)
